@@ -24,6 +24,7 @@ keys/
 
 # Web
 npm-debug.*
+yarn-*
 *.jks
 *.p12
 *.key

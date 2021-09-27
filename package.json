@@ -1,7 +1,7 @@
 {
-    "name": "roadman-template",
+    "name": "@roadmanjs/couchset",
     "version": "0.0.0",
-    "description": "My cool roadman package",
+    "description": "A Roadman with Couchset",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
@@ -68,7 +68,9 @@
         "typescript": ">=2.0"
     },
     "dependencies": {
+        "@roadmanjs/core": "^0.0.3",
         "chalk": "^4.1.0",
+        "couchset": "^0.0.10",
         "debug": "^4.3.1",
         "dotenv": "^8.2.0",
         "lodash": "^4.17.20"
