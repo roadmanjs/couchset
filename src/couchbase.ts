@@ -5,10 +5,11 @@ import {RoadmanBuild, RoadMan, awaitTo} from '@roadmanjs/core';
 import {startCouchbase} from './database';
 
 /**
- * An example of a last RoadMan
+ * A Couchbase roadman using CouchSet
+ * @docs https://couchset.org
  * @param RoadmanBuild
  */
-export const couchbaseRoadman: RoadMan = async (args: RoadmanBuild): Promise<RoadmanBuild> => {
+export const couchsetRoadman: RoadMan = async (args: RoadmanBuild): Promise<RoadmanBuild> => {
     const [errorStarting, started] = await awaitTo(startCouchbase());
     if (started) {
         console.log('CouchSet', chalk.green(`Couchbase has started`));
