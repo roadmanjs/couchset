@@ -1,6 +1,6 @@
 {
     "name": "@roadmanjs/couchset",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "A Couchbase roadman using CouchSet",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -10,7 +10,15 @@
         "register/",
         "LICENSE"
     ],
-    "keywords": ["couchbase", "couchset", "couchset.org", "roadman", "roadmanjs", "nodejs", "database"],
+    "keywords": [
+        "couchbase",
+        "couchset",
+        "couchset.org",
+        "roadman",
+        "roadmanjs",
+        "nodejs",
+        "database"
+    ],
     "author": {
         "name": "Ceddy Muhoza",
         "email": "ceddymuhoza@gmail.com",
