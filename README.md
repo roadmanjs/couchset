@@ -13,3 +13,26 @@
 
 
 ## A roadman for couchbase using couchset.
+
+### How to use
+```
+yarn add @roadmanjs/couchset
+```
+
+app.ts
+```ts
+import {roadman} from 'roadman'
+import {couchsetRoadman} from '@roadmanjs/couchset';
+
+await roadman({
+  roadmen: [couchsetRoadman]
+});
+```
+
+#### Env required
+```sh
+COUCHBASE_URL= 
+COUCHBASE_BUCKET= 
+COUCHBASE_USERNAME= 
+COUCHBASE_PASSWORD=
+```
