@@ -672,10 +672,10 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-couchbase@^3.2.1:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/couchbase/-/couchbase-3.2.2.tgz#cf8b1d42ff3c8a612f070e29f1052b6df2150603"
-  integrity sha512-/Lhd49L/fD3KvcDsqgsaFIiwRKSXkf4ejBK9B8mL8iXCFfnLZe4Re0EGPPVPXjGTITGDVjCHBQy3LSk2AfBADw==
+couchbase@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/couchbase/-/couchbase-3.2.4.tgz#ba879c02a5079cd8487bc0fe2fb8d5d397678c5d"
+  integrity sha512-Tp1o7ARj1U4WtYoSaKo3PBzNEurbqizwLxe+em7LlwfWDyf1WxGUUFu1Gy7okq3CFZPFdtUUMAh++oDJu/piVA==
   dependencies:
     bindings "^1.5.0"
     debug "^4.3.2"
@@ -683,12 +683,12 @@ couchbase@^3.2.1:
     parse-duration "^1.0.0"
     prebuild-install "^6.1.4"
 
-couchset@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/couchset/-/couchset-0.0.11.tgz#fd726ddf3d7b345d472ccd59dc915dd48d63295a"
-  integrity sha512-e8Cs5dO+VE4aVg3XoxmlFBfHQzIsW4TP2zFsOomf4Ru2lZ0i/wRW/hCFQn/py9iGZIR+0MjbeAPkDFhsS+77cQ==
+couchset@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/couchset/-/couchset-0.0.14.tgz#2b22d42c21a3a6489a7a1ce159ede5996ab4471c"
+  integrity sha512-7ZEpPEHp2lS/EaMTf/cDMgPx2lzdDbDZFrQg3d2MikUomjMN8iR226h/MDeQoU1QZfWmLyoE2BAbqQ3ZhuD4gw==
   dependencies:
-    couchbase "^3.2.1"
+    couchbase "^3.2.4"
     debug "^4.3.1"
     dotenv "^10.0.0"
     graphql "^15.6.0"
