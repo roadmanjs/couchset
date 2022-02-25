@@ -78,9 +78,8 @@
     },
     "dependencies": {
         "@roadmanjs/core": "^0.0.3",
-        "@stoqey/client-graphql": "^1.1.12",
         "chalk": "^4.1.0",
-        "couchset": "^0.0.14",
+        "couchset": "^0.0.15",
         "debug": "^4.3.1",
         "dotenv": "^8.2.0",
         "lodash": "^4.17.20"
