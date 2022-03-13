@@ -715,10 +715,10 @@ couchbase@^3.2.4:
     parse-duration "^1.0.0"
     prebuild-install "^6.1.4"
 
-couchset@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/couchset/-/couchset-0.0.16.tgz#caf6465a71b2e355d0401cbb047f7dfc2c0cb3ec"
-  integrity sha512-+5jb1HIkJUSPRo4MdxWdER79g9V0SNFD3LC8//bK1dlMB8yPUQdecSQG/zwJHTiRE7qxzRD25DAQZJKomvaGUg==
+couchset@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/couchset/-/couchset-0.0.17.tgz#bfd72d327ecd7f464713aa285c552c1e8d3ac61e"
+  integrity sha512-U+z3a98hsz26inYb+SGvM0SD4ILVdFR9T2fRLA4XmsDJpxUO/Mv9WW0us44dB+paHXoPbA5qK+GBiLLCoixWvw==
   dependencies:
     couchbase "^3.2.4"
     debug "^4.3.1"
