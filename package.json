@@ -1,6 +1,6 @@
 {
     "name": "@roadmanjs/couchset",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "description": "A Couchbase roadman using CouchSet",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -79,7 +79,7 @@
     "dependencies": {
         "@roadmanjs/core": "^0.0.3",
         "chalk": "^4.1.0",
-        "couchset": "^0.0.17",
+        "couchset": "^0.0.18",
         "debug": "^4.3.1",
         "dotenv": "^8.2.0",
         "lodash": "^4.17.20"
